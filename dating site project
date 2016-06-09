@@ -22,7 +22,7 @@
             width: 360px;
             height: 50px;
         }
-        .label-input-range {
+        .label-input-range-leftside {
             display: inline-block;
             text-align: center;
             width: 80px;
@@ -46,6 +46,18 @@
 
           width: 100px;
         }
+.label-input-range-leftside{
+
+line-height: 2.5;
+}
+
+.label-input-range-rightside{
+
+line-height: 2.5;
+}
+
+
+
     </style>
 </head>
 <body>
@@ -89,18 +101,20 @@
                 <option value="Philippines">Philippines</option>
             </select>
         </fieldset>
+
         <fieldset>
             <legend>You Indicators</legend>
             <label for="height">Height:</label>
-            <span class="label-input-range">Short</span>
+            <span class="label-input-range-leftside">Short</span>
             <input type="range" id="height" name="height" min="0" max="100">
             <span class="label-input-range-rightside">Tall</span>
             <br>
             <label for="salary">Salary:</label>
-            <span class="label-input-range">Poor</span>
+            <span class="label-input-range-leftside">Poor</span>
             <input type="range" id="salary" name="salary" min="0" max="100">
             <span class="label-input-range-rightside">Rich</span>
         </fieldset>
+
         <fieldset>
             <legend>You Contact Information</legend>
             <label for="email">Email:</label>
@@ -125,3 +139,4 @@
     <script src="https://www.cse.ust.hk/~rossiter/dating_web_site.js"></script>
 </body>
 </html>
+
